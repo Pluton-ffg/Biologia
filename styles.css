@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to bottom, #e6ffe6, #cceeff);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    text-align: center;
+    position: relative;
+    padding: 40px; /* Espacio interno de la caja principal */
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 600px; /* Limita el ancho para que no se vea muy extendido */
+    margin: 20px; /* Espacio externo */
+}
+
+h1 {
+    font-size: 2.5rem;
+    color: #2d8659;
+    margin-bottom: 30px; /* Espacio debajo del título */
+}
+
+.buttons {
+    margin-top: 20px;
+}
+
+.btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 15px; /* Aumenta el padding del botón */
+    margin: 20px 0; /* Más espacio entre los botones */
+    border: none;
+    border-radius: 8px; /* Bordes más redondeados */
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+.btn-green {
+    background-color: #38a169;
+    color: white;
+}
+
+.btn-green:hover {
+    background-color: #2f855a;
+}
+
+.btn-blue {
+    background-color: #4299e1;
+    color: white;
+}
+
+.btn-blue:hover {
+    background-color: #3182ce;
+}
+
+.icon {
+    margin-right: 10px;
+    width: 24px;
+    height: 24px;
+}
+
+.explore-text {
+    margin-top: 40px; /* Más espacio encima del texto */
+    font-size: 1.1rem;
+    color: #2d8659;
+}
+
+.icon-button {
+    font-size: 3rem;
+    border: none;
+    background: none;
+    cursor: pointer;
+    position: absolute;
+    top: 20px; /* Ajuste de la posición superior */
+    left: 20px; /* Ajuste de la posición lateral */
+}
+
+.icon-button:hover {
+    transform: scale(1.1); /* Efecto al pasar el cursor por encima */
+}
+
+.icon-bottom {
+    position: absolute;
+    bottom: 20px; /* Ajuste de la posición inferior */
+    right: 20px;
+    font-size: 4rem;
+}
